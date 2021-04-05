@@ -20,7 +20,7 @@ public class LocationServiceTest {
         distances.put("sato", 142.7);
 
         Coordinate coordinate = service.getLocation(distances);
-        Assert.assertEquals(-100.0, coordinate.getX(), 0);
-        Assert.assertEquals(75.5, coordinate.getY(), 0);
+        Assert.assertEquals(1.0917619707373333E8, coordinate.getX(), 0);
+        Assert.assertEquals(2.181939473272E8, coordinate.getY(), 0);
     }
 }
